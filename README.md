@@ -10,7 +10,7 @@ Some ideas I have include:
 
 ## What does this even mean?
 
-Well, in short, people's property values are changing, both in absolute terms and relative to other properties in Jersey City, which changes their tax burden. Brigid D'Souza over at Civic Parent has [a great set of resources](https://civicparent.org/jerseycity-revaluation-lets-getcivic/).
+Well, in short, people's assessed property values are changing, both in absolute terms and relative to other properties in Jersey City, which changes their tax burden. Brigid D'Souza over at Civic Parent has [a great set of resources](https://civicparent.org/jerseycity-revaluation-lets-getcivic/).
 
 ## Why do you care?
 
