@@ -1,4 +1,4 @@
-# Jersey City 2018 Reval Proposed Assessments
+# Jersey City 2018 Reval Assessment Data
 
 Jersey City is undergoing its first complete property reval since 1988. Appraisal Systems has been putting the assessment information online but as PDFs, which are not very accessible or parseable. This repo is an effort to present the data in a more web-friendly and universally searchable format, as well as possibly using the data for further analysis and visualizations.
 
