@@ -28,7 +28,7 @@ This is all very hacky but also fairly fast, so for reference:
 6. Convert to `JSON - Row Arrays` using https://shancarter.github.io/mr-data-converter/
 7. Do a find-and-replace on the JSON to replace `,n/a,` with `,"n/a",`.
 8. Do another find-and-replace to replace square footage values like `1.234` with `1,234`. In Sublime Text using regex matches, this is replacing `,([0-9]+)\.([0-9]+),` with `,"$1,$2",`.
-9. Do a more manual find-and-replace of some funky lot numbers, changing from ones that look like `00012  34` to `"00012.34"` (note the additional double quotes). You can find them using `,[0-9]{5}` as the regex. If this becomes extremely common and/or annoying, I'll makes this a proper regex replacement.
+9. Do yet another find-and-replace of some funky lot numbers, changing from ones that look like `00012  34` to `"00012.34"` (note the additional double quotes). In Sublime Text using regex matches, this is replacing `,([0-9]{5})  ([0-9]+),` with `,"$1.$2",`.
 10. Check for validity using https://jsonlint.com/ (hopefully it will pass).
 11. Assuming it passes, save the JSON as `data.txt` in this repo.
 12. Update the date in `index.html`.
