@@ -27,6 +27,9 @@ $(document).ready(function(){
 <table id="jc-reval-assessments" class="display compact" cellspacing="0" width="100%" data-page-length="50">
 	<thead>
 		<tr>
+			<th data-visible="false">BlockNo</th>
+			<th data-visible="false">LotNo</th>
+			<th data-orderable="false" data-visible="false">QualCode(s)</th>
 			<th class="all">PropLocation</th>
 			<th data-orderable="false" data-visible="false">PropClass(s)</th>
 			<th data-orderable="false">SalesDate</th>
@@ -48,7 +51,10 @@ $(document).ready(function(){
 	</thead>
 	<tfoot>
 		<tr>
-			<th class="all">PropLocation</th>
+			<th>BlockNo</th>
+			<th>LotNo</th>
+			<th>QualCode(s)</th>
+			<th>PropLocation</th>
 			<th>PropClass(s)</th>
 			<th>SalesDate</th>
 			<th>SalePrice</th>
@@ -56,7 +62,7 @@ $(document).ready(function(){
 			<th>2017 Assmt Taxable</th>
 			<th>2017 Assmt Exempt</th>
 			<th>2017 Assmt Total</th>
-			<th class="all">2017 Taxes Total</th>
+			<th>2017 Taxes Total</th>
 			<th>VCS</th>
 			<th>Year Built</th>
 			<th>Design</th>
@@ -64,7 +70,7 @@ $(document).ready(function(){
 			<th>2018 Assmt Taxable</th>
 			<th>2018 Assmt Exempt</th>
 			<th>2018 Assmt Total</th>
-			<th class="all">2018 Taxes Estimated</th>
+			<th>2018 Taxes Estimated</th>
 		</tr>
 	</tfoot>
 </table>
